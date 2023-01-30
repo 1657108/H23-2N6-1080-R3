@@ -10,7 +10,10 @@
 # imprimez la liste                                                                                                    #
 # Changez la liste en une chaine de caractères avec les cartes graphiques séparées par des virgules
 
-
+cartes_graphique = "AMD Ryzen 9 5900X/AMD Ryzen 7 5800X3/Intel Core i9 12900 K"
+listeQ1 = cartes_graphique.split("/")
+print(listeQ1)
+print(80*'')
 
 
 
@@ -22,11 +25,11 @@ ligne_donnees = " AMD Ryzen 9 5900X ;  AMD Ryzen 7 5800X3 ;  Intel Core i9 12900
 #  Vous voulez ensuite avoir une liste de chacun des processeurs sans les espaces avant et après chaque processeur processeurs                                                                                            #
 #  Imprimez la liste maintenant                                                                    #
 
+listeQ2= ligne_donnees.split(";")
+#listestrip = listeQ2.strip()
+print(listeQ2)
 
-
-
-
-
+print(80*'')
 
 
 
@@ -38,7 +41,13 @@ nom_fichier_et_extension = "Python_Rencontre 3_Approfondissement str.docx"
 # Imprimez le nom du cours, la rencontre et le sujet de la rencontre                                                   #
 
 
+liste1Q3= nom_fichier_et_extension.split(".")
+cours, rencontre, sujet = nom_fichier_et_extension.split("_")
+print(cours)
+print(rencontre)
+print(sujet)
 
+print(80*'')
 
 
 
