@@ -25,11 +25,11 @@ ligne_donnees = " AMD Ryzen 9 5900X ;  AMD Ryzen 7 5800X3 ;  Intel Core i9 12900
 #  Vous voulez ensuite avoir une liste de chacun des processeurs sans les espaces avant et après chaque processeur processeurs                                                                                            #
 #  Imprimez la liste maintenant                                                                    #
 
-listeQ2= ligne_donnees.split(";")
-#listestrip = listeQ2.strip()
-print(listeQ2)
+# listeQ2= ligne_donnees.split(";")
+# #listestrip = listeQ2.strip()
+# print(listeQ2)
 
-print(80*'')
+# print(80*'')
 
 
 
@@ -42,10 +42,11 @@ nom_fichier_et_extension = "Python_Rencontre 3_Approfondissement str.docx"
 
 
 liste1Q3= nom_fichier_et_extension.split(".")
-cours, rencontre, sujet = nom_fichier_et_extension.split("_")
-print(cours)
-print(rencontre)
-print(sujet)
+print(liste1Q3)
+# cours, rencontre, sujet = liste1Q3.split("_")
+# print(cours)
+# print(rencontre)
+# print(sujet)
 
 print(80*'')
 
